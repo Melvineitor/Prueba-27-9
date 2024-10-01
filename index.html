@@ -7,13 +7,14 @@
     <style>
        body {
             font-family: Arial, sans-serif;
+            font-size: 25px;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
         }
 
         header {
-            background-color: #333;
+            background-color: #0a0647;
             color: white;
             padding: 20px;
             text-align: center;
@@ -40,15 +41,17 @@
 
         section {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column; /* Change to column for stacking */
+            align-items: center; /* Center items horizontally */
             padding: 20px;
         }
 
         .content-section {
             padding: 20px;
+            text-align: center;
             background-color: white;
-            margin: 20px;
+            margin: auto;
+            margin-top: 20px;
             border-radius: 10px;
             width: 80%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -57,6 +60,7 @@
         h2 {
             text-align: center;
             color: #333;
+            font-size: 50px;
         }
 
         .video-container {
@@ -102,9 +106,13 @@
         <h2>Valores</h2>
         <ul>
             <li><strong>Innovación:</strong> Nos mantenemos a la vanguardia tecnológica, ofreciendo productos de última generación.</li>
+            <br>
             <li><strong>Calidad:</strong> Garantizamos que nuestros productos cumplen con los más altos estándares.</li>
+            <br>
             <li><strong>Compromiso:</strong> Nos dedicamos a satisfacer las necesidades de nuestros clientes de manera integral.</li>
+            <br>
             <li><strong>Integridad:</strong> Actuamos con transparencia y honestidad en todas nuestras operaciones.</li>
+            <br>
             <li><strong>Servicio:</strong> Brindamos atención personalizada para asegurar la mejor experiencia de compra.</li>
         </ul>
     </section>
